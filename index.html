@@ -24,9 +24,9 @@
       </nav>
       <div class="hero-container">
         <div class="hero-left">
-        <h1>Build The Community Your Fans Will Love</h1>
-        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
-        <a href="#" class="hero-left-btn">Get Started For Free</a>
+        <h1 id='hero-animation-1'>Build The Community Your Fans Will Love</h1>
+        <p id='hero-animation-2' >Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+        <a id='hero-animation-3' href="#" class="hero-left-btn">Get Started For Free</a>
       </div>
       <div class="hero-right">
         <img class='mockups'src="/images/illustration-mockups.svg" alt="">
@@ -99,6 +99,19 @@
   &copy; Copyright 2021 Huddle. All rights reserved.
 </div>
 <p class="credits">Made by Santiago Da Silva</p>
+
+<script src="/Js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+<script>
+  
+gsap.from(".mockups", {opacity: -2, y: -300, ease: "back.out(1.7)",duration: 1.5});
+gsap.from("#hero-animation-1", {opacity: 0,ease: "elastic.out(1,0.3)",y: -100, duration: 2});
+gsap.from("#hero-animation-2", {opacity: -2,ease: "elastic.out(1,0.3)", x: 300,duration: 1.5});
+gsap.from("#hero-animation-3", {opacity: 0,ease: "elastic.out(1,0.3)",y: 100, duration: 1});
+
+
+</script>
 
 </body>
 </html>
