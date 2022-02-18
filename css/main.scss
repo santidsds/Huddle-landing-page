@@ -608,15 +608,16 @@ footer {
         text-align: left;
 
         h2 {
-            font-size: 22px;
+            font-size: 25px;
         }
 
         p {
-            font-size: 15px;
+            font-size: 16px;
             width: 400px;
             
         }
     }
+
 
     .second-section {
         background: white;
@@ -625,6 +626,10 @@ footer {
 
     #flow-image, #grow-image, #users-image {
         width: 450px;
+    }
+
+    #grow-image {
+        width: 400px
     }
 
     .mid-section-container {
@@ -698,7 +703,54 @@ footer {
         display: block;
     }
 
+    .hero-bg {
+        height: 100vh;
+    }
+
+    
+
 } 
+
+@media only screen and (min-width:1600px) {
+
+    .hero-container {
+        margin-top: 100px;
+
+        .hero-right {
+            .mockups {
+                width: 770px;
+                
+            }
+        }
+        
+        .hero-left {
+            margin-left: 5vw;
+            
+            
+            h1 {
+                font-size:35px;
+                text-align: left;
+                width: 400px;
+                
+            }
+
+            p {
+                font-size: 18px;
+                text-align: left;
+                width: 470px;
+                
+                
+            }
+
+            .hero-left-btn {
+                font-size: 15px;
+                margin-left: -0.2vw;
+            }
+
+        }
+    }
+
+}
 
 
 

@@ -588,10 +588,10 @@ footer .p-email {
     text-align: left;
   }
   .grow-container h2, .flow-container h2, .users-container h2 {
-    font-size: 22px;
+    font-size: 25px;
   }
   .grow-container p, .flow-container p, .users-container p {
-    font-size: 15px;
+    font-size: 16px;
     width: 400px;
   }
   .second-section {
@@ -600,6 +600,9 @@ footer .p-email {
   }
   #flow-image, #grow-image, #users-image {
     width: 450px;
+  }
+  #grow-image {
+    width: 400px;
   }
   .mid-section-container {
     width: 25vw;
@@ -641,6 +644,35 @@ footer .p-email {
     font-weight: bold;
     color: white;
     display: block;
+  }
+  .hero-bg {
+    height: 100vh;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .hero-container {
+    margin-top: 100px;
+  }
+  .hero-container .hero-right .mockups {
+    width: 770px;
+  }
+  .hero-container .hero-left {
+    margin-left: 5vw;
+  }
+  .hero-container .hero-left h1 {
+    font-size: 35px;
+    text-align: left;
+    width: 400px;
+  }
+  .hero-container .hero-left p {
+    font-size: 18px;
+    text-align: left;
+    width: 470px;
+  }
+  .hero-container .hero-left .hero-left-btn {
+    font-size: 15px;
+    margin-left: -0.2vw;
   }
 }
 /*# sourceMappingURL=main.css.map */
